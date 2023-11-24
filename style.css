@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  background-color: grey;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.sc_lg {
+  height: 55px;
+  width: 55px;
+}
+.logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.busqueda {
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 2px;
+}
+
+.icon-white {
+  color: white;
+}
+.lista {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+.round {
+  border: 2px solid white;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.opcion {
+  display: flex;
+  align-items: center;
+}
